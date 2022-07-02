@@ -5,9 +5,11 @@ import { Home } from './pages';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <div className='mx-auto container px-10 md:px-0'>
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
