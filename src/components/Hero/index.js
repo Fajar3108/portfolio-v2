@@ -5,7 +5,7 @@ import HeroImages from './HeroImages';
 
 const Hero = () => {
     return (
-        <div className="hero flex flex-col-reverse md:flex-row items-center h-screen overflow-hidden relative justify-center text-center md:text-left">
+        <div className="hero flex flex-col-reverse md:flex-row items-center h-screen overflow-hidden relative justify-between text-center md:text-left">
             <HeroContent />
             <HeroImages profile={profile} mempis={mempis} />
         </div>

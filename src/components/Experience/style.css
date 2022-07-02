@@ -1,0 +1,3 @@
+.experience__card {
+  @apply md:flex-grow-0 md:w-[45%] lg:md:w-[35%];
+}
