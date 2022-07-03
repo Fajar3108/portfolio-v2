@@ -1,10 +1,10 @@
-import { Experience, Hero } from "../../components";
+import { ExperienceSection, Hero } from "../../components";
 
 const Home = () => {
     return (
         <>
             <Hero />
-            <Experience />
+            <ExperienceSection />
         </>
     )
 };
