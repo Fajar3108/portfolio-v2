@@ -5,7 +5,7 @@ import './style.css';
 
 const ExperienceSection = () => {
     return (
-        <div className="experience flex flex-col items-center justify-center text-center py-10">
+        <div className="experience py-10">
             <SectionTitle icon={experienceIcon} smallTitle="Experience" bigTitle="I have some experience in the field of web development" />
             <ExperienceGroup />
         </div>
