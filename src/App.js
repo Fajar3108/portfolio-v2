@@ -5,7 +5,7 @@ import { Home } from './pages';
 function App() {
   return (
     <Router>
-      <div className='mx-auto container'>
+      <div className='mx-auto container max-w-[90%]'>
         <Routes>
             <Route path="/" element={<Home />} />
         </Routes>
